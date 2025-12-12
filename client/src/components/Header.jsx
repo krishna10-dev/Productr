@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import { FiSearch, FiBell, FiLogOut, FiUser } from 'react-icons/fi';
-import { Link, useNavigate } from 'react-router-dom';
+import { useState } from 'react';
+import { FiSearch, FiLogOut, FiUser } from 'react-icons/fi';
+import { useNavigate } from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
 
 

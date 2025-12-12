@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link, useLocation, useNavigate } from 'react-router-dom';
+// import React from 'react';
+import { Link, useLocation} from 'react-router-dom';
 import { FiHome, FiShoppingBag, FiSearch } from 'react-icons/fi';
 
 const Sidebar = () => {

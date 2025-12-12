@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import {
   FiTrash2,
-  FiEdit2,
   FiChevronLeft,
   FiChevronRight,
 } from "react-icons/fi";

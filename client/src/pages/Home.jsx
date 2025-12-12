@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { fetchProducts } from '../services/api';
-import EmptyState from '../components/EmptyState';
 import ProductCard from '../components/ProductCard';
 import AddProductForm from '../components/AddProductForm';
 import Header from '../components/Header';
