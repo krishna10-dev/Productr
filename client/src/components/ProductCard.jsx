@@ -13,10 +13,11 @@ const ProductCard = ({ product, onDeleteSuccess, onEdit, onStatusChange }) => {
 
   const [showDeleteModal, setShowDeleteModal] = useState(false);
 
-  const images =
-    product.images.length > 0
-      ? product.images.map((img) => `http://localhost:5000${img}`)
-      : ["https://via.placeholder.com/300"];
+  const API_BASE_URL = 'https://productr-backend.onrender.com';
+
+  const images = product.images.length > 0 
+    ? product.images.map(img => `${API_BASE_URL}${img}`)
+    : ['https://via.placeholder.com/300'];
 
   const currentImageUrl = images[currentImageIndex];
 
