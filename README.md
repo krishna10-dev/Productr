@@ -56,3 +56,10 @@ GET	     /api/products	        Fetch all products
 POST	 /api/products	        Create a new product (Multipart)	
 PUT	     /api/products/:id	    Update product details	
 DELETE	 /api/products/:id	    Delete a product	
+
+
+Deployment Check (Important)
+Since I am using Render's Free Tier, there is a catch: "Ephemeral Filesystem".
+This means when you upload an image, it saves to the server.
+But when Render "restarts" (which happens often on free tier), the uploaded files are deleted.
+For a professional assignment, this is usually acceptable but i am making Assignment for demo purpose.
