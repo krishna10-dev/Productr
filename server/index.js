@@ -20,7 +20,7 @@ const app = express();
 app.use(cors({
   origin: [
     'http://localhost:3000', 
-    'https://your-new-netlify-site.netlify.app'
+    'https://full-stack-productr.netlify.app/login'
   ],
   credentials: true
 }));
