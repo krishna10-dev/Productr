@@ -3,8 +3,8 @@
 A responsive, pixel-perfect MERN Stack application for managing product inventories. This project features secure authentication, image uploads, and a dynamic dashboard, built to meet specific design requirements.
 
 ## 🚀 Live Demo
-- **Frontend (Netlify):** [Replace with your Netlify URL]
-- **Backend (Render):** [Replace with your Render URL]
+- **Frontend (Netlify):** https://full-stack-productr.netlify.app/
+- **Backend (Render):** https://productr-backend.onrender.com
 
 ## ✨ Key Features
 - **Authentication:** Secure Login/Signup with OTP verification (JWT-based session management).
@@ -39,8 +39,7 @@ cd server
 npm install
 # Create a .env file with:
 # PORT=5000
-# MONGO_URI
-# JWT_SECRET
+# MONGO_URI=mongodb+srv://<Username>:<Password>@cluster0.aze5yah.mongodb.net/?appName=Cluster0
 npm run dev
 
 2. Frontend Setup
@@ -66,4 +65,5 @@ For a professional assignment, this is usually acceptable but i am making Assign
 
 
 NOTE : 
-    The backend is hosted on a free instance. Please allow 30-60 seconds for the initial load while the server wakes up
+    The backend is hosted on a free instance.
+    Please allow 30-60 seconds for the initial load while the server wakes up
